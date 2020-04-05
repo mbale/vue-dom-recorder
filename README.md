@@ -1,6 +1,6 @@
 # Vue DOM Recorder
 
-Proof of concept to track clicks in input type elements. Clicks are showed as steps that shows the logical order for the interaction.
+Proof of concept to track clicks in input type elements. Clicks are showed as steps that show the logical order for the interaction.
 
 - Any element inside __ActionZone.vue__ with attribute data-watched-element="true" will be logged
 - You can disable this with data-watched-element="false"
@@ -64,7 +64,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Jest tests should be inside __tests/unit__
   - Name should be *componentName*.spec.ts
 - Cypress tests should be inside __tests/e2e/spec__
-  - Name should be *businessFeature.spec.ts*
+  - The name should be *businessFeature.spec.ts*
 
 ## Basic flow
 
@@ -72,7 +72,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Roadmap
 
-- migrating from global event listener (outside click) approach to directive based
+- migrating from global event listener (outside click) approach to directive-based
 - better responsiveness for SideBar.vue
-- inject RecorderModule into vue components
+- inject RecorderModule into Vue components
 - cypress aliases
