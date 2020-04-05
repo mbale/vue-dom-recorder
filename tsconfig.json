@@ -10,11 +10,9 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    "skipLibCheck": true,
     "baseUrl": ".",
-    "types": [
-      "webpack-env",
-      "jest"
-    ],
+    "types": ["@types/jest"],
     "paths": {
       "@/*": [
         "src/*"
@@ -31,7 +29,7 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "tests/**/*.ts",
+    "tests/unit/*.ts",
     "tests/**/*.tsx"
   ],
   "exclude": [
